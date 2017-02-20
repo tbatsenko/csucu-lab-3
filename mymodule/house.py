@@ -1,9 +1,12 @@
 # File: house.py
-from .property import Property
-from .funcs import get_valid_input
+from property import Property
+from funcs import get_valid_input
 
 
 class House(Property):
+    """
+    
+    """
     valid_garage = ("attached", "detached", "none")
     valid_fenced = ("yes", "no")
 

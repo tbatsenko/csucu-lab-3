@@ -36,4 +36,3 @@ class Property:
         return dict(square_feet=input("Enter the square feet: "),
                     beds=input("Enter number of bedrooms: "),
                     baths=input("Enter amount of baths: "))
-

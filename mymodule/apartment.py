@@ -1,7 +1,7 @@
 # file: apartment.py
 
-from .property import Property
-from .funcs import get_valid_input
+from property import Property
+from funcs import get_valid_input
 
 
 class Apartment(Property):
