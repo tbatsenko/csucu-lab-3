@@ -18,6 +18,18 @@ class Agent:
         """
         self.property_list = []
 
+    @staticmethod
+    def say_hello():
+        print("Hello there! I'm agent")
+
+    def pick_random_prop(self):
+        """
+        This method displays a random property from self.property_list.
+        """
+        import random
+        prop = random.choice(self.property_list)
+        prop.display()
+
     def display_properties(self):
         """
         This calls a method display() for each item in self.property_list.
